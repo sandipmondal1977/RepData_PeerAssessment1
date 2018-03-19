@@ -118,7 +118,7 @@ print(totSteps)
 hist(totSteps$steps)
 ```
 
-![](PA1_template_files/figure-html/create_tot_steps_hist-1.png)<!-- -->
+![](create_tot_steps_hist-1.png)<!-- -->
   
   
   
@@ -157,7 +157,7 @@ intv_stpAvg <- aggregate(steps ~ interval, data = Acts, mean, na.rm=TRUE)
 plot(steps ~ interval, data = intv_stpAvg, type = "l")
 ```
 
-![](PA1_template_files/figure-html/time_series_plot-1.png)<!-- -->
+![](time_series_plot-1.png)<!-- -->
   
   
   
@@ -216,7 +216,7 @@ totSteps_noNA <- aggregate(steps ~ date, data = acts_noNA, sum)
 hist(totSteps_noNA$steps)
 ```
 
-![](PA1_template_files/figure-html/create_tot_steps_hist_noNA-1.png)<!-- -->
+![](create_tot_steps_hist_noNA-1.png)<!-- -->
   
   
   
@@ -266,5 +266,5 @@ xyplot(steps ~ interval | factor(week_or_weekend), data = acts_noNA, aspect = 1/
        type = "l")
 ```
 
-![](PA1_template_files/figure-html/create_panel_plt-1.png)<!-- -->
+![](create_panel_plt-1.png)<!-- -->
 

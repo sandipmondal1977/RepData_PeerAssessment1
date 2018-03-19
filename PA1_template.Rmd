@@ -1,9 +1,11 @@
 ---
 title: "Reproducible Research Peer Grade Assessment Project 1"
 author: "Sandip Mondal"
-output: 
-  html_document: 
+output:
+  html_document:
     keep_md: yes
+  pdf_document: default
+  word_document: default
 ---  
   
 Data, i.e. activity.zip is downloadef from [this GitHub repository](http://github.com/rdpeng/RepData_PeerAssessment1) on March 19, 2018 and kept in R working directory
